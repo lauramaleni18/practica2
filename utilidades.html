@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>utilidades de la GRID de bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+
+	<style type="text/css">
+		.row{
+			background-color: #e8e8e8;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+
+		.columnas{
+			background-color: #f2f2f2;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid black;
+		}
+	</style>
+
+
+
+</head>
+
+
+<body>
+
+
+	<div class="container">
+		<!-- extrachico: xs,
+			 chico: x,
+			 mediano: md,
+			 grande: lg,
+			 extragrande: x1,
+			 extra extra grande:xx1
+		-->
+
+		<h4>ordenar columnas con order-1 al order-5</h4>
+		<div class="row">
+			<div class="columnas col order-4 order-md-1 order-lg-4">COLUMNA 1</div>
+			<div class="columnas col order-3 order-md-2 order-lg-3">COLUMNA 2</div>
+			<div class="columnas col order-2 order-md-3 order-lg-2">COLUMNA 3</div>
+			<div class="columnas col order-1 order-md-4 order-lg-1">COLUMNA 4</div>
+
+
+		</div>
+
+		<h4>ordenar columnas con order-last y order-first</h4>
+		<div class="row">
+			<div class="columnas col order-last">COLUMNA 1</div>
+			<div class="columnas col order-first">COLUMNA 2</div>
+			<div class="columnas col">COLUMNA 3</div>
+			<div class="columnas col">COLUMNA 4</div>
+		</div>
+
+		<h4>ordenar columnas con offset</h4>
+		<p>CON OFFSET INDICO CUANTAS COLUMNAS A LA DERECHA SE VA A POSICIONAR EL ELEMENTO AL QUE SE LE AGREGA LA CLASE</p>
+		<div class="row">
+			<div class="columnas col-3 offset-2 ">COLUMNA 1</div>
+		</div>
+
+		<div class="row">
+			<div class="columnas col-3 offset-6 ">COLUMNA 1</div>
+		</div>
+
+		<div class="row">
+			<div class="columnas col-3 offset-7 ">COLUMNA 1</div>
+		</div>
+
+	</div>
+
+
+
+
+</body>
+</html>

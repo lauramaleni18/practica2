@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+
+	<!--conecto la hoja de estilo de bootstrap-->
+	<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+
+	<!--conecto javascript de bootstrap-->
+	<script type="text/javascript" src="bootstrap5/js/bootstrap.min.js"></script>
+
+	<style>
+		.row{
+			background: #e8e8e8;
+			margin-top: 20px;
+		}
+
+		.columna{
+			background: #f2f2f2;
+			text-align: center;
+			padding: 10px;
+			border: 1px solid #4d5061;
+		}
+
+		.btn-primary{
+			background: green;
+		}
+	</style>
+
+</head>
+<body>
+
+	<div class="container">
+
+	<button class='btn btn-primary'>boton de prueba</button>
+
+		<div class="row justify-content-start">
+			<div class="columna col-4">columna1</div>
+			<div class="columna col-4">columna2</div>
+			<div class="columna col-3">columna3</div>
+		</div>
+
+		<div class="row justify-content-end">
+			<div class="columna col-4">columna1</div>
+			<div class="columna col-4">columna1</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="columna col-3">columna1</div>
+			<div class="columna col-3">columna2</div>
+			<div class="columna col-3">columna3</div>
+		</div>
+
+		<div class="row justify-content-around">
+			<div class="columna col-3">columna1</div>
+			<div class="columna col-3">columna2</div>
+		</div>
+
+		<div class="row justify-content-between">
+			<div class="columna col-4">columna1</div>
+			<div class="columna col-4">columna2</div>
+
+		</div>
+
+		<div class="row justify-content-evenly">
+			<div class="columna col-3">columna1</div>
+			<div class="columna col-3">columna1</div>
+		</div>
+	</div>
+
+
+
+</body>
+</html>
